@@ -1,14 +1,13 @@
 extern crate csv;
 use encoding_rs;
 use std::error::Error;
-use std::process;
+//use std::process;
 use std::fs;
 
 pub struct AslConverter;
 
 impl AslConverter {
 }
-
 
 pub fn read_csv() -> Result<(), Box<dyn Error>> {
   let file_path = "./assets/samples/ASL_sample.csv";
